@@ -1,0 +1,40 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  .main{
+    margin: 10px 20px;
+    display: flex;
+    .parent{
+      img{
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+      }
+    }
+    .content{
+      .body{
+        margin: 10px 0 30px 30px;
+        h5{
+          font-size: 20px;
+        }
+      }
+      .button{
+        display: flex;
+        margin: 15px 0 0 30px;
+        button{
+          width: 30px;
+          height: 30px;
+        }
+        input{
+          width: 30px;
+          height: 30px;
+          align-items: center;
+        }
+      }
+    }
+    .price{
+      margin-top: 70px;
+      margin-left: 35px;
+    }
+  }
+}
