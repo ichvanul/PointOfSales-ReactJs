@@ -1,0 +1,4 @@
+.ContainerApp{
+  display: flex;
+  flex-direction: column;
+}
